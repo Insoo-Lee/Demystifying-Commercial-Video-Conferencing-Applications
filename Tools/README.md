@@ -17,7 +17,7 @@ Frame rate is the number of frames per second that appear on a screen. Specifica
 <br/>ScreenToGif is a screen, webcam, and sketch board recorder with an integrated editor.
 - Checking hash values
   - Before checking the hash value of the captured screen, we use the time information of the file to rename the files. Based on the file names, we can compare the files for only 1 second time period. Please, consider the following python code:<br/>`mTime = time.localtime(os.stat(file).st_mtime)`<br/>`t = "%02d%02d%02d " % (mTime.tm_hour, mTime.tm_min, mTime.tm_sec)`<br/>`filename = t + file`<br/>`os.rename(file, filename)`
-  - After renaming the files, we use [Certutil](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc732443(v=ws.11)?redirectedfrom=MSDN) to check the hash value of the files. Please, consider the following commands:<br/>`certutil -hashfile "File" MD5`
+  - After renaming the files, we use [Certutil](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc732443(v=ws.11)?redirectedfrom=MSDN) to check the hash value of the files. Please, consider the following command:<br/>`certutil -hashfile "File" MD5`
 
 # Resolution
 
@@ -35,4 +35,4 @@ Resolution is the number of visible pixels in a video frame. We use an open-sour
 Streaming delay is the time difference between the time when the video is generated at the sender and the time when the video is finally displayed at the receiver, which contains video capture, encoding, transmission, decoding, and rendering delays. To measure the streaming delay, we use the timestamp displayed at the corner of the screen. We record the sender's and the receiver's screens simultaneously and calculate the time difference by comparing the two screens' timestamps.
 
 - Displaying timestamp
-<br/>Using the echo command in Linux, we display the current time. Please, consider the following commands: <br/>`while true; do echo -ne "'date +%H:%M:%S:%N'\r"; done`
+<br/>Using the echo command in Linux, we display the current time. Please, consider the following command: <br/>`while true; do echo -ne "'date +%H:%M:%S:%N'\r"; done`

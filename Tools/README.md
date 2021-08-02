@@ -19,6 +19,7 @@ Resolution is the number of visible pixels in a video frame. We use an open-sour
 
 - resdet
 - [FastStone Photo Resizer](https://www.faststone.org/FSResizerDetail.htm)
+
 FastStone Photo Resizer is an image converter and renaming tool that intends to enable users to convert, rename, resize, crop, rotate, change color depth, add text and watermarks to images in a quick and easy batch mode
 
 

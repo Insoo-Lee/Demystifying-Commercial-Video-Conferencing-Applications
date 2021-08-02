@@ -17,9 +17,11 @@ Frame rate is the number of frames per second that appear on a screen. Specifica
 
 Resolution is the number of visible pixels in a video frame. We use an open-sourced tool called resdet to obtain the estimated resolution. We capture the recipient's screen every second and use it as the input image to this software, and take the output value as the estimated resolution. For an accurate estimate, we crop the captured image to display only the screen provided by the sender, not the application's interface.
 
-- resdet
+- [resdet](https://github.com/0x09/resdet)
+<br/>resdet detects source resolution of upscaled images.
+
 - [FastStone Photo Resizer](https://www.faststone.org/FSResizerDetail.htm)
-FastStone Photo Resizer is an image converter and renaming tool that intends to enable users to convert, rename, resize, crop, rotate, change color depth, add text and watermarks to images in a quick and easy batch mode
+<br/>FastStone Photo Resizer is an image converter and renaming tool that intends to enable users to convert, rename, resize, crop, rotate, change color depth, add text and watermarks to images in a quick and easy batch mode.
 
 
 # Streaming Delay

@@ -2,15 +2,19 @@
 
 Sending rate is the number of bits transmitted per second over the network, measured by using TCPDUMP (WinDump).
 
-- TCPDUMP
-- WinDump
-- Wireshark
+- [TCPDUMP](https://www.tcpdump.org/index.html)
+<br/>TCPDUMP is a powerful command-line packet analyzer for UNIX.
+- [WinDump](https://www.winpcap.org/windump)
+<br/>WinDump is the Windows version of tcpdump.
+- [Wireshark](https://www.wireshark.org/)
+<br/>Wireshark is the world’s foremost and widely-used network protocol analyzer.
 
 # Frame Rate
 
 Frame rate is the number of frames per second that appear on a screen. Specifically, we display a clock in nanoseconds at the corner of the video screen and capture the screen using the ScreenToGif program. Then, we check the hash values of the captured screens to calculate how many times the screen changed per second.
 
-- ScreenToGif
+- [ScreenToGif](https://www.screentogif.com/)
+<br/>ScreenToGif is a screen, webcam, and sketch board recorder with an integrated editor.
 - Checking hash values
 
 # Resolution

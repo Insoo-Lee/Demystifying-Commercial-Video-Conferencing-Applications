@@ -33,3 +33,4 @@ Resolution is the number of visible pixels in a video frame. We use an open-sour
 Streaming delay is the time difference between the time when the video is generated at the sender and the time when the video is finally displayed at the receiver, which contains video capture, encoding, transmission, decoding, and rendering delays. To measure the streaming delay, we use the timestamp displayed at the corner of the screen. We record the sender's and the receiver's screens simultaneously and calculate the time difference by comparing the two screens' timestamps.
 
 - Displaying timestamp
+<br/>Using the echo command in Linux, we display the current time. Please, consider the following commands: <br/>`while true; do echo -ne "'date +%H:%M:%S:%N'\r"; done`

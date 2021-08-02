@@ -17,7 +17,7 @@ Frame rate is the number of frames per second that appear on a screen. Specifica
 <br/>ScreenToGif is a screen, webcam, and sketch board recorder with an integrated editor.
 - Checking hash values
   - Before checking the hash value of the captured screen, we use the time information of the file to rename the files. Based on the file names, we can compare the files for only 1 second time period. Please, consider the following python code:<br/>`mTime = time.localtime(os.stat(file).st_mtime)`<br/>`t = "%02d%02d%02d " % (mTime.tm_hour, mTime.tm_min, mTime.tm_sec)`<br/>`filename = t + file`<br/>`os.rename(file, filename)`
-  - After renaming the files, we use [Certutil](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc732443(v=ws.11)?redirectedfrom=MSDN) to check the hash value of the files. Please, consider the following python code:<br/>`certutil -hashfile "File" MD5`
+  - After renaming the files, we use [Certutil](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc732443(v=ws.11)?redirectedfrom=MSDN) to check the hash value of the files. Please, consider the following commands:<br/>`certutil -hashfile "File" MD5`
 
 # Resolution
 

@@ -9,6 +9,8 @@ It was used for plotting Figure 1: The CDF of throughput and video quality for a
 <b style='color:red'>link</b> is the available bandwidth setup and measured throughput and latency of applications. <br />
 They were used for plotting Figure 3: Performance comparison between six video conferencing applications and WebRTC. <br /><br />
 
+
+
 ## Impact of Network Parameters
 ### Impact of available bandwidth
 We check each application’s adaptation behavior while varying the bandwidth from 200Kbps to 5Mbps in 100Kbps steps. <br />
@@ -28,7 +30,17 @@ We observe that all applications temporarily lower their bit rate due to the ext
 ### Impact of packet loss rates
 We vary the packet loss rates, ranging from 0% to 10%, while fixing the bandwidth and propagation delay. <br />
 We observe that the sending rate of each application exceeds the maximum bitrate observed in the ideal scenario. The increases come from loss recovery mechanisms such as forward error correction (FEC) and packet retransmission. <br />
-<b style='color:red'>link</b> is the result.
+<b style='color:red'>link</b> is the result. <br /><br />
+
+
+
+## Rate Control Algorithm Model Validation
+
+## QoE-related Metrics Model Validation
+
+## Cross-Application Contention Analysis
+
+## Coexistence with TCP Flows Analysis
 
 
 Dataset will be posted here soon.

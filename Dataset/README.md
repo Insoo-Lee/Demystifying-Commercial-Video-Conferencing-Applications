@@ -1,10 +1,10 @@
 ## Motivation
 ### A strong positive relationship between the sender’s rate and the receiver’s rate (or quality)
-<b style='color:red'>link</b> is the delay setup and measured throughput (sending rate at user1) and goodput (receiving rate at user2). <br />
+<font color="green"> link </font> is the delay setup and measured throughput (sending rate at user1) and goodput (receiving rate at user2). <br />
 It was used for plotting Figure 1: The CDF of throughput and video quality for applications using cloud servers under delay variation.
 
 ### Performance comparison under various network scenarios 
-\textcolor{red}{link} is the packet loss rate setup and measured throughput and latency of applications. <br />
+<b style='color:red'>link</b> is the packet loss rate setup and measured throughput and latency of applications. <br />
 <b style='color:red'>link</b> is the delay setup and measured throughput and latency of applications. <br />
 <b style='color:red'>link</b> is the available bandwidth setup and measured throughput and latency of applications. <br />
 They were used for plotting Figure 3: Performance comparison between six video conferencing applications and WebRTC. <br /><br />

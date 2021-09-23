@@ -1,6 +1,6 @@
 ## Motivation
 ### A strong positive relationship between the sender’s rate and the receiver’s rate (or quality)
-<font color="green"> link </font> is the delay setup and measured throughput (sending rate at user1) and goodput (receiving rate at user2). <br />
+<b style='color:red'>link</b> is the delay setup and measured throughput (sending rate at user1) and goodput (receiving rate at user2). <br />
 It was used for plotting Figure 1: The CDF of throughput and video quality for applications using cloud servers under delay variation.
 
 ### Performance comparison under various network scenarios 

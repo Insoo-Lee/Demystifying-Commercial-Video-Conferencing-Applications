@@ -7,7 +7,7 @@ It was used for plotting Figure 1: The CDF of throughput and video quality for a
 link is the packet loss rate setup and measured throughput and latency of applications. <br />
 link is the delay setup and measured throughput and latency of applications. <br />
 link is the available bandwidth setup and measured throughput and latency of applications. <br />
-They were used for plotting Figure 3: Performance comparison between six video conferencing applications and WebRTC. <br />
+They were used for plotting Figure 3: Performance comparison between six video conferencing applications and WebRTC. <br /><br />
 
 ## Impact of Network Parameters
 ### Impact of available bandwidth
